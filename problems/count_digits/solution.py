@@ -1,0 +1,13 @@
+number = int(input())
+
+if number == 0:
+    print(1)
+else:
+    number = abs(number)
+    count = 0
+
+    while number > 0:
+        count = count + 1
+        number = number // 10
+
+    print(count)
