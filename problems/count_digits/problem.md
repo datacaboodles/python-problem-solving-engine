@@ -59,6 +59,23 @@ Example 3:
 Input: -987  
 Output: 3  
 
+Example 4:
+Input: 538
+
+Iteration 1:
+Number = 538 → reduced to 53
+Counter = 1
+
+Iteration 2:
+Number = 53 → reduced to 5
+Counter = 2
+
+Iteration 3:
+Number = 5 → reduced to 0
+Counter = 3
+
+Output = 3
+
 ## Step 8: Python Code
 (See solution.py)
 
