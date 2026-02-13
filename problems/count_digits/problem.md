@@ -20,15 +20,30 @@
 - The input number is a negative integer.
 
 ## Step 5: Sub-parts
-- Accept the input number.
-- Determine the total number of digits in the number.
-- Display the digit count.
+- Check if the number is zero
+- Ignore the sign if the number is negative
+- Initialize a counter
+- Repeatedly reduce the number
+- Increase the counter for each reduction
+- Stop when the number becomes empty
+- Produce the count
 
 ## Step 6: Pseudocode
 - Receive the input number.
 - Process the number to count how many digits it contains.
 - Store the total digit count.
 - Display the result.
+
+Start  
+If number equals zero → output 1 and stop  
+Convert number to positive  
+Set counter to zero  
+While number is greater than zero  
+    Increase counter  
+    Reduce number by removing one digit  
+Output counter  
+End
+
 
 ## Step 7: Dry Run
 
